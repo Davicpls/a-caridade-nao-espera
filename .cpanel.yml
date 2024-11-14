@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/acarid52/repositories/a-caridade-nao-espera
+    - /bin/cp -R images $DEPLOYPATH
